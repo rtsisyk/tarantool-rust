@@ -1,0 +1,9 @@
+[package]
+name = "tarantool"
+version = "0.0.1"
+authors = [ "Roman Tsisyk <roman@tarantool.org>" ]
+
+[lib]
+name = "tarantool_rust_module"
+path = "src/example.rs"
+crate-type = ["dylib"]
