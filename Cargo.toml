@@ -1,6 +1,13 @@
 [package]
 name = "tarantool"
 version = "0.0.1"
+description = "Tarantool bindings for Rust"
+homepage = "https://github.com/rtsisyk/tarantool-rust"
+repository = "https://github.com/rtsisyk/tarantool-rust.git"
+readme = "README.md"
+keywords = ["tarantool", "ffi"]
+categories = ["database", "api-bindings", "external-ffi-bindings"]
+license = "BSD-2-Clause"
 authors = [ "Roman Tsisyk <roman@tarantool.org>" ]
 
 [lib]
