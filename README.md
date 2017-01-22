@@ -3,6 +3,7 @@
 [![Tarantool][tarantool-badge]][Tarantool]
 [![Rust][rust-badge]][Rust]
 [![License][license-badge]][license-url]
+[![Build Status][travis-badge]][travis-url]
 
 A proof-of-concept **Rust** module for **Tarantool**.
 
@@ -74,5 +75,7 @@ See Also
 [Rust]: https://www.rust-lang.org
 [license-badge]: https://img.shields.io/badge/License-BSD--2-lightgray.svg?style=flat
 [license-url]: LICENSE.md
+[travis-badge]: https://api.travis-ci.org/rtsisyk/tarantool-rust.svg?branch=master
+[travis-url]: https://travis-ci.org/rtsisyk/tarantool-rust
 [Telegram]: http://telegram.me/tarantool
 [Maillist]: https://groups.google.com/forum/#!forum/tarantool

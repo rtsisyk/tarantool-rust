@@ -1,0 +1,22 @@
+sudo: false
+language: rust
+rust:
+ - stable
+ - beta
+ - nightly
+matrix:
+  allow_failures:
+   - rust: nightly
+
+addons:
+  apt:
+    sources:
+     - sourceline: 'deb https://packagecloud.io/tarantool/1_7/ubuntu/ precise main'
+       key_url: 'https://packagecloud.io/gpg.key'
+    packages:
+     - tarantool
+
+script:
+ - cargo build --verbose
+ - cargo test --verbose
+ - ./test.lua

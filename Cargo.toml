@@ -10,6 +10,9 @@ categories = ["database", "api-bindings", "external-ffi-bindings"]
 license = "BSD-2-Clause"
 authors = [ "Roman Tsisyk <roman@tarantool.org>" ]
 
+[badges]
+travis-ci = { repository = "rtsisyk/tarantool-rust", branch = "master" }
+
 [lib]
 name = "tarantool_rust_module"
 path = "src/example.rs"
